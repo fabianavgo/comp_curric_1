@@ -1,30 +1,4 @@
-<!-- 7  Descrever a sua funcionalidade e fazer exemplos das seguintes funções do PHP:
-a) array() 
-b) trim()
-c) substr()
-d) strtolower()
-e) strtoupper()
-f) ucfirst()
-g) ucwords()
-h) explode()
-i) var_dump()
-j) implode()
-k) htmlspecialchars()
-l) join()
-m) isset()
-n) strlen()
-o) is_float(), is_int(), is_array(), is_string(), is_bool(), is_numeric()
-p) getdate()
-q) empty()
-r) strip_tags()
-s) max(), min()
-t) abs()
-u) ceil(), floor(), round()
-v) rand()
-w) sqrt()
-x) str_replace()
-y) count()
-z) htmlentities() -->
+
 
 <!DOCTYPE html>
 <html>
@@ -69,13 +43,13 @@ z) htmlentities() -->
     <h2>d) strtolower()</h2>
     <p> Serve para conveter toda a String em minuscula. Ex:</p>
     <?php
-    echo strtolower("Hello MINUSCULA.");
+    echo strtolower("MINUSCULA.");
     ?>
     
     <h2>e) strtoupper()</h2>
     <p>Serve para conveter toda a String em minusculo. Ex:</p>
     <?php
-    echo strtoupper("HELLO MAIUSCULA.");
+    echo strtoupper("MAIUSCULA.");
     ?>
     
     
@@ -121,7 +95,7 @@ z) htmlentities() -->
     <p> Converte caracteres especiais para a realidade HTML. Ex:</p>
     <?php
     $new = htmlspecialchars("<a href='test'>Test</a>", ENT_QUOTES);
-    echo $new; // &lt;a href=&#039;test&#039;&gt;Test&lt;/a&gt;     
+    echo $new;    
     ?>
     
     
@@ -238,13 +212,9 @@ z) htmlentities() -->
   echo "<br>";
   
 
-  // Com arrays múltiplos, max compara da esquerda para direita,
-  // assim nesse exemplo: 2 == 2, mas 4 < 5
+  
   $val = max(array(2, 4, 8), array(2, 5, 7));
-  // array(2, 5, 7)
-
-  // Se forem informados um array e um não array, o array
-  // é sempre retornado como se ele fosse o maior
+  
   $val = max('string', array(2, 5, 7), 42);
   // array(2, 5, 7)
   ?>
@@ -332,31 +302,32 @@ z) htmlentities() -->
   // Fornece: <body text='black'>
   $bodytag = str_replace("%body%", "black", "<body text='%body%'>");
 
-  // Fornece: Hll Wrld f PHP
+  
   $vowels = array("a", "e", "i", "o", "u", "A", "E", "I", "O", "U");
   $onlyconsonants = str_replace($vowels, "", "Hello World of PHP");
 
-  // Fornece: você comeria pizza, cerveja e sorvete todos os dias
+  
   $frase = "você comeria frutas, vegetais, e fibra todos os dias.";
   $saudavel = array("frutas", "vegetais", "fibra");
   $saboroso = array("pizza", "cerveja", "sorvete");
 
   $novafrase = str_replace($saudavel, $saboroso, $frase);
 
-  // Uso do parâmetro count está disponível no PHP 5.0.0
+  
   $str = str_replace("ll", "", "good golly miss molly!", $count);
   echo $count;
   // 2
 
-  // Order of replacement
+ 
   $str = "Line 1\nLine 2\rLine 3\r\nLine 4\n";
   $order = array("\r\n", "\n", "\r");
   $replace = '<br />';
-  // Processes \r\n's first so they aren't converted twice.
+ 
+
   $newstr = str_replace($order, $replace, $str);
 
   echo "<br>";
-  // Saidas: apearpearle pear
+  
   $letters = array('a', 'p');
   $fruit = array('apple', 'pear');
   $text = 'a p';
@@ -370,12 +341,11 @@ z) htmlentities() -->
   </p>
   <?php
   $comidas = array('frutas' => array('laranja', 'banana', 'maçã'), 'veggie' => array('cenoura', 'couve', 'ervilha'));
-  // contagem recursiva
+ 
   echo count($comidas, COUNT_RECURSIVE);
-  // mostra 8
-  // contagem normal
+  
   echo count($comidas);
-  // mostra 2
+ 
   ?>
 
   <h2>z) htmlentities()</h2>
