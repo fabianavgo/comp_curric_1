@@ -16,31 +16,31 @@ g) select -->
 	</head>
 		
 		<body>
-			<form action="formulario.php" method="POST" onsubmit="return validar();">
+			<form action="formulario.php" method="POST">
 				 <fieldset>
 
 				<h1> Preencha o formulário </h1>		
 					
 						<!--hidden.php --> 
-						<input type="hidden" name="pagina" value="informa"> 
+						<input type="hidden" name="pagina" value="contato"> 
 					
 				
 						<p>
 							<label for="idNome">*Digite seu nome:</label>							
-							<input type="text" name="nome" id="idNome" required="true"><br> <br>
+							<input type="text" name="nome" id="nome" required="true"><br> <br>
 							<label for="idEmail">*Digite seu Email:</label>							
-							<input type="text" name="email" id="idEmail" required="true"><br> 
+							<input type="text" name="email" id="email" required="true"><br> 
 						</p>
 						
 								<p>
-									<label for="idSenha">*Digite uma senha:</label> 
-									<input type="password" name="senha" id="idSenha"> <br>
+									<label for="senha">*Digite uma senha:</label> 
+									<input type="password" name="senha" id="senha" required="true"> <br>
 								</p>
 
 									<label for="idSexo">*Sexo:</label>
 					                <br>
-					                <input type="radio" name="sexo" id="idSexo"> Feminino
-					                <input type="radio" name="sexo" id="idSexo1" >Masculino
+					                <input type="radio" name="sexo" id="sexo"> Feminino
+					                <input type="radio" name="sexo" id="sexo"> Masculino
 					            
 					                <br>
 
@@ -48,36 +48,36 @@ g) select -->
 								<p>
 								<label for="idInteresse" >Qual sua área de interesse?</label> <br> 
 									
-									<input type="checkbox" name="musica" id="idInteresse" >Musica<br> 
-									<input type="checkbox" name="esporte" id="idInteresse" > Esporte<br>
-									<input type="checkbox" name="noticia" id="idInteresse" > Noticias<br>
-									<input type="checkbox" name="internet" id="idInteresse" > Internet<br> 
-									<input type="checkbox" name="entreterimento" id="idInteresse" > Entreterimento<br>  
+									<input type="checkbox" name="musica" id="musica" >Musica<br> 
+									<input type="checkbox" name="esporte" id="esporte" > Esporte<br>
+									<input type="checkbox" name="noticia" id="noticia" > Noticias<br>
+									<input type="checkbox" name="internet" id="internet" > Internet<br> 
+									<input type="checkbox" name="entreterimento" id="entreterimento" > Entreterimento<br>  
 								</p>
 																
 							<p>
 								<label for="idInformacao">Como ficou sabendo desse site:</label><br> 
-								<input type="radio" name="televisao" id="idInformacao">  Televisão<br>
-								<input type="radio" name="jornal" id="idInformacao"> Jornal<br>
-								<input type="radio" name="internet" id="idInformacao"> Internet<br> 
-								<input type="radio" name="amigos" id="idInformacao"> Amigos 
+								<input type="radio" name="televisao" id="televisao">  Televisão<br>
+								<input type="radio" name="jornal" id="jornal"> Jornal<br>
+								<input type="radio" name="internet" id="internet"> Internet<br> 
+								<input type="radio" name="amigos" id="amigos"> Amigos 
 							</p>
 							
 						<p>
 							<label for="idAvaliacao">*Como você avalia o site?</label> <br>
 							<select required="isSelected"> 
-							<option name="inicial"><label for="idAvaliacao" ></label></option> 
-							<option name="pessimo"><label for="idAvaliacao">Péssimo</label></option> 
-							<option name="regular"><label for="idAvaliacao">Regular</label></option> 
-							<option name="bom"><label for="idAvaliacao">Bom</label></option>
-							<option name="otimo"><label for="idAvaliacao">Ótimo</label></option>  
+							<option name="inicial"><label for="inicial" ></label></option> 
+							<option name="pessimo"><label for="pessimo">Péssimo</label></option> 
+							<option name="regular"><label for="regular">Regular</label></option> 
+							<option name="bom"><label for="bom">Bom</label></option>
+							<option name="otimo"><label for="otimo">Ótimo</label></option>  
 							</select>
 						</p>
 
 						 <p><label for="idComentario"> Deixe aqui seu comentário: </label>
 						<br>
 						<textarea name="comentario" id="idComentario"cols=30 rows=10 ></textarea> <br>
-						<input name="submit" type="submit" value="ENVIAR" class="botao" >
+						<button class="btn btn-primary"> ENVIAR </button>
 					</p>
 				</fieldset>	
 			</form>
