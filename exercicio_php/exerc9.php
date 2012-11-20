@@ -74,7 +74,7 @@ g) select -->
 							</select>
 						</p>
 
-						 <p><label for="idComentario">Deixe aqui seu comentário: </label>
+						 <p><label for="idComentario"> Deixe aqui seu comentário: </label>
 						<br>
 						<textarea name="comentario" id="idComentario"cols=30 rows=10 ></textarea> <br>
 						<input name="submit" type="submit" value="ENVIAR" class="botao" >
