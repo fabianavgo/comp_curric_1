@@ -1,0 +1,1108 @@
+2012-09-04 18:04:03 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/cakeStrap/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-04 18:22:02 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /Applications/MAMP/htdocs/cakeStrap/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-04 18:35:02 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Applications/MAMP/htdocs/cakeStrap/app/View/Layouts/default.ctp, line 21]
+2012-09-04 18:35:02 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 /Applications/MAMP/htdocs/cakeStrap/lib/Cake/Error/ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Applications/M...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#2 /Applications/MAMP/htdocs/cakeStrap/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Applications/M...', 21, Array)
+#3 /Applications/MAMP/htdocs/cakeStrap/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-31 17:03:19 Error: Fatal Error (4): syntax error, unexpected 'new' (T_NEW) in [C:\xampp\htdocs\caketeste\app\Model\User.php, line 8]
+2012-10-31 17:03:19 Error: [FatalErrorException] syntax error, unexpected 'new' (T_NEW)
+#0 C:\xampp\htdocs\caketeste\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-31 17:05:50 Error: Fatal Error (4): syntax error, unexpected ')', expecting '(' in [C:\xampp\htdocs\caketeste\app\Model\User.php, line 8]
+2012-10-31 17:05:50 Error: [FatalErrorException] syntax error, unexpected ')', expecting '('
+#0 C:\xampp\htdocs\caketeste\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 8, Array)
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-10-31 17:41:23 Error: [MissingViewException] View file "C:\xampp\htdocs\caketeste\app\View\Pages\display.ctp" is missing.
+#0 C:\xampp\htdocs\caketeste\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\caketeste\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\caketeste\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-10-31 18:51:48 Error: [MissingViewException] View file "C:\xampp\htdocs\caketeste\app\View\Posts\view.ctp" is missing.
+#0 C:\xampp\htdocs\caketeste\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\caketeste\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\caketeste\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-14 17:53:40 Error: [MissingViewException] View file "C:\xampp\htdocs\caketeste\app\View\Posts\add.ctp" is missing.
+#0 C:\xampp\htdocs\caketeste\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\caketeste\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\caketeste\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-14 18:17:24 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\caketeste\app\View\Posts\index.ctp, line 5]
+2012-11-14 18:17:25 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\caketeste\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#2 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 5, Array)
+#3 C:\xampp\htdocs\caketeste\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 21:24:31 Error: [MissingConnectionException] Database connection "SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)" is missing, or could not be created.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/ConnectionManager.php(101): DboSource->__construct(Array)
+#2 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(3158): ConnectionManager::getDataSource('default')
+#3 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(1092): Model->setDataSource('default')
+#4 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(3180): Model->setSource('users')
+#5 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Model/Model.php(1301): Model->getDataSource()
+#6 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/Helper/FormHelper.php(197): Model->schema()
+#7 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/Helper/FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/View/Elements/form_login.ctp(19): FormHelper->create('User', Array)
+#9 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(920): include('/Users/tiagolin...')
+#10 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(883): View->_evaluate('/Users/tiagolin...', Array)
+#11 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(424): View->_render('/Users/tiagolin...', Array)
+#12 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/View/Pages/home.ctp(65): View->element('form_login')
+#13 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(920): include('/Users/tiagolin...')
+#14 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(883): View->_evaluate('/Users/tiagolin...', Array)
+#15 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/View/View.php(475): View->_render('/Users/tiagolin...')
+#16 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#17 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#18 /Users/tiagolink/Sites/mamp/tiagolink/blog/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-11-27 21:24:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:24:50 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:03 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:25:35 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:26:49 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:27:06 Error: [MissingControllerException] Controller class PostsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:27:40 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:27:48 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/tiagolink/Sites/mamp/tiagolink/blog/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:32:00 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:32:01 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:32:37 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:32:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:30 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:30 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:31 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:31 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:32 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 21:36:43 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\simone_motta\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\simone_motta\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#9 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\simone_motta\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\simone_motta\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\simone_motta\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-27 22:00:59 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\carli.taffarel\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#9 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-27 23:35:50 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\carli.taffarel\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#9 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-27 23:52:46 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\carli.taffarel\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#9 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-27 23:52:54 Error: [MissingControllerException] Controller class HelloController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-27 23:53:13 Error: [MissingActionException] Action HelloController::index.php() could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-27 23:53:55 Error: Fatal Error (4): syntax error, unexpected '.', expecting '(' in [C:\xampp\htdocs\carli.taffarel\blog\app\Controller\HelloController.php, line 4]
+2012-11-27 23:53:55 Error: [FatalErrorException] syntax error, unexpected '.', expecting '('
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 4)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 4, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 4, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-27 23:54:41 Error: [MissingActionException] Action HelloController::index.php() could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-27 23:57:44 Error: [MissingActionException] Action HelloController::index.php() could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-27 23:58:35 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\carli.taffarel\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 00:05:00 Error: [MissingTableException] Table users for model User was not found in datasource default.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#5 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#6 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#7 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#8 C:\xampp\htdocs\carli.taffarel\blog\app\View\Users\login.ctp(5): View->element('form_login')
+#9 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#12 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#13 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#14 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#15 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#16 {main}
+2012-11-28 17:05:32 Error: [MissingActionException] Action HelloController::contact() could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-28 17:17:38 Error: [MissingActionException] Action HelloController::sobreMim() could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-28 17:18:21 Error: [MissingViewException] View file "C:\xampp\htdocs\carli.taffarel\blog\app\View\Hello\sobre_mim.ctp" is missing.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(HelloController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-28 21:57:57 Error: [MissingControllerException] Controller class PostController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 21:58:25 Error: [MissingControllerException] Controller class PostController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 22:10:45 Error: Fatal Error (4): syntax error, unexpected '[', expecting ',' or ';' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 21]
+2012-11-28 22:10:45 Error: [FatalErrorException] syntax error, unexpected '[', expecting ',' or ';'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 22:11:16 Error: Fatal Error (4): syntax error, unexpected '[', expecting ',' or ';' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 21]
+2012-11-28 22:11:16 Error: [FatalErrorException] syntax error, unexpected '[', expecting ',' or ';'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 22:12:15 Error: Fatal Error (4): syntax error, unexpected '{' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 21]
+2012-11-28 22:12:15 Error: [FatalErrorException] syntax error, unexpected '{'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 21)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 21, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 21, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 22:14:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-28 22:36:06 Error: [MissingViewException] View file "C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\view.ctp" is missing.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-28 22:42:18 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\view.ctp, line 7]
+2012-11-28 22:42:18 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 7)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 7, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 7, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-28 23:56:33 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 11]
+2012-11-28 23:56:33 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-29 01:49:28 Error: [MissingViewException] View file "C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\edit.ctp" is missing.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 01:50:24 Error: [MissingViewException] View file "C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\editar.ctp" is missing.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-29 01:50:54 Error: [MissingViewException] View file "C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\editar.ctp" is missing.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-30 23:35:55 Error: [MissingViewException] View file "C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\editar.ctp" is missing.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-30 23:41:57 Error: [MissingViewException] View file "C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\editar.ctp" is missing.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-30 23:41:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-30 23:43:17 Error: [MissingActionException] Action PostsController::editar() could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-30 23:43:18 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-30 23:48:24 Error: [MissingActionException] Action PostsController::editar() could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-30 23:48:25 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-30 23:48:35 Error: [MissingViewException] View file "C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\editar.ctp" is missing.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-30 23:48:35 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-30 23:51:37 Error: [MissingActionException] Action PostsController::editar() could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-30 23:51:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-30 23:53:23 Error: [MissingViewException] View file "C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\editar.ctp" is missing.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-30 23:53:24 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-30 23:56:35 Error: [MissingViewException] View file "C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\editar.ctp" is missing.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-30 23:56:59 Error: [MissingActionException] Action PostsController::editar() could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-01 00:00:24 Error: [MissingActionException] Action PostsController::editar() could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-01 00:00:44 Error: [MissingViewException] View file "C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\editar.ctp" is missing.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-01 00:14:22 Error: [MissingActionException] Action PostsController::delete() could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-01 00:26:08 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 00:26:08 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 00:30:53 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 44]
+2012-12-01 00:30:53 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 44)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 44, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 44, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 00:57:04 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 38]
+2012-12-01 00:57:04 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 00:57:22 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 38]
+2012-12-01 00:57:22 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 38, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:25:08 Error: Fatal Error (1): Cannot use assign-op operators with overloaded objects nor string offsets in [C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\View\Helper\FormHelper.php, line 1628]
+2012-12-01 01:25:08 Error: [FatalErrorException] Cannot use assign-op operators with overloaded objects nor string offsets
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Cannot use assi...', 'C:\xampp\htdocs...', 1628)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use assi...', 'C:\xampp\htdocs...', 1628, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Cannot use assi...', 'C:\xampp\htdocs...', 1628, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:30:59 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 42]
+2012-12-01 01:30:59 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:31:03 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 42]
+2012-12-01 01:31:03 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:34:32 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 42]
+2012-12-01 01:34:32 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:34:50 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 42]
+2012-12-01 01:34:50 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:41:49 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 42]
+2012-12-01 01:41:49 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:42:12 Error: [MissingControllerException] Controller class DeleteController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 01:43:17 Error: [MissingControllerException] Controller class DeleteController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 01:46:12 Error: Fatal Error (4): syntax error, unexpected 'btn' (T_STRING), expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 42]
+2012-12-01 01:46:12 Error: [FatalErrorException] syntax error, unexpected 'btn' (T_STRING), expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:55:44 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 42]
+2012-12-01 01:55:44 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:56:11 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 42]
+2012-12-01 01:56:11 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:56:45 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 42]
+2012-12-01 01:56:45 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:57:41 Error: Fatal Error (4): syntax error, unexpected '=', expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 42]
+2012-12-01 01:57:41 Error: [FatalErrorException] syntax error, unexpected '=', expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 01:58:00 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 42]
+2012-12-01 01:58:00 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:06:24 Error: [MissingControllerException] Controller class DeleteController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 02:08:57 Error: [MissingControllerException] Controller class DeleteController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 02:10:06 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 42]
+2012-12-01 02:10:06 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 42, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:21:55 Error: Fatal Error (4): syntax error, unexpected '<', expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 34]
+2012-12-01 02:21:55 Error: [FatalErrorException] syntax error, unexpected '<', expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:24:37 Error: Fatal Error (4): syntax error, unexpected '<', expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:24:37 Error: [FatalErrorException] syntax error, unexpected '<', expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:26:59 Error: Fatal Error (4): syntax error, unexpected '=', expecting identifier (T_STRING) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 34]
+2012-12-01 02:26:59 Error: [FatalErrorException] syntax error, unexpected '=', expecting identifier (T_STRING)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 34, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:29:52 Error: Fatal Error (4): syntax error, unexpected '<', expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:29:52 Error: [FatalErrorException] syntax error, unexpected '<', expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:31:02 Error: Fatal Error (4): syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:31:02 Error: [FatalErrorException] syntax error, unexpected '"Visualizar"' (T_CONSTANT_ENCAPSED_STRING)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:31:17 Error: Fatal Error (4): syntax error, unexpected '<', expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 36]
+2012-12-01 02:31:17 Error: [FatalErrorException] syntax error, unexpected '<', expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:31:53 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 36]
+2012-12-01 02:31:53 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:35:23 Error: Fatal Error (4): syntax error, unexpected 'array' (T_ARRAY) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:35:23 Error: [FatalErrorException] syntax error, unexpected 'array' (T_ARRAY)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:35:41 Error: Fatal Error (4): syntax error, unexpected '<', expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:35:41 Error: [FatalErrorException] syntax error, unexpected '<', expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:35:53 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:35:53 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:36:19 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:36:19 Error: [FatalErrorException] syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:36:36 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:36:36 Error: [FatalErrorException] syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:36:54 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:36:54 Error: [FatalErrorException] syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:38:23 Error: Fatal Error (4): syntax error, unexpected '<', expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 36]
+2012-12-01 02:38:23 Error: [FatalErrorException] syntax error, unexpected '<', expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:40:31 Error: Fatal Error (4): syntax error, unexpected '<', expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:40:31 Error: [FatalErrorException] syntax error, unexpected '<', expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:44:57 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:44:57 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:46:11 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS), expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:46:11 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS), expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:46:31 Error: Fatal Error (4): syntax error, unexpected '(', expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:46:31 Error: [FatalErrorException] syntax error, unexpected '(', expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:46:51 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:46:51 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:54:27 Error: Fatal Error (4): syntax error, unexpected ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:54:27 Error: [FatalErrorException] syntax error, unexpected ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:54:50 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:54:50 Error: [FatalErrorException] syntax error, unexpected ','
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 02:55:19 Error: Fatal Error (4): syntax error, unexpected ',' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 35]
+2012-12-01 02:55:19 Error: [FatalErrorException] syntax error, unexpected ','
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 35, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 03:01:32 Error: [MissingControllerException] Controller class Carli.taffarelController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-01 03:02:27 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 36]
+2012-12-01 03:02:27 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 03:02:31 Error: Fatal Error (4): syntax error, unexpected '<' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 36]
+2012-12-01 03:02:31 Error: [FatalErrorException] syntax error, unexpected '<'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 03:02:55 Error: Fatal Error (4): syntax error, unexpected 'class' (T_CLASS) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 36]
+2012-12-01 03:02:55 Error: [FatalErrorException] syntax error, unexpected 'class' (T_CLASS)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 03:04:49 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 36]
+2012-12-01 03:04:49 Error: [FatalErrorException] syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 03:05:12 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 36]
+2012-12-01 03:05:12 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 03:05:42 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 36]
+2012-12-01 03:05:42 Error: [FatalErrorException] syntax error, unexpected '?>'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 36, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-01 03:26:46 Error: [MissingActionException] Action PostsController::<a href=() could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-01 03:31:26 Error: Fatal Error (4): syntax error, unexpected '?>', expecting ')' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 11]
+2012-12-01 03:31:26 Error: [FatalErrorException] syntax error, unexpected '?>', expecting ')'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 11, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-02 01:15:51 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:16:44 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:33:52 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:34:02 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:34:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:35:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:35:33 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:36:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:36:33 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 46]
+2012-12-02 01:36:33 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-02 01:36:34 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:36:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:38:16 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 46]
+2012-12-02 01:38:16 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-02 01:38:17 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:38:19 Error: Fatal Error (4): syntax error, unexpected '=>' (T_DOUBLE_ARROW) in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 46]
+2012-12-02 01:38:19 Error: [FatalErrorException] syntax error, unexpected '=>' (T_DOUBLE_ARROW)
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 46, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 46, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-02 01:38:19 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:38:35 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:43:12 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:43:45 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:45:37 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:47:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:47:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:50:16 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:50:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:51:40 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [C:\xampp\htdocs\carli.taffarel\blog\app\View\Posts\index.ctp, line 45]
+2012-12-02 01:51:40 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+#0 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 45)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 45, Array)
+#2 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 45, Array)
+#3 C:\xampp\htdocs\carli.taffarel\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-02 01:51:40 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:52:10 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:53:21 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:53:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:53:45 Error: [MissingControllerException] Controller class DeleteController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:53:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:57:26 Error: [MissingControllerException] Controller class DeleteController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-02 01:57:26 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 C:\xampp\htdocs\carli.taffarel\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 22:33:53 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)" is missing, or could not be created.
+#0 C:\xampp\htdocs\will\blog\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\will\blog\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\will\blog\lib\Cake\Model\Model.php(3158): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\will\blog\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\will\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#5 C:\xampp\htdocs\will\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 C:\xampp\htdocs\will\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#7 C:\xampp\htdocs\will\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp\htdocs\will\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#9 C:\xampp\htdocs\will\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\will\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\will\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#12 C:\xampp\htdocs\will\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#13 C:\xampp\htdocs\will\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\will\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#15 C:\xampp\htdocs\will\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#16 C:\xampp\htdocs\will\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#17 C:\xampp\htdocs\will\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#18 C:\xampp\htdocs\will\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 C:\xampp\htdocs\will\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-12-06 22:40:08 Error: [MissingControllerException] Controller class IndexController could not be found.
+#0 C:\xampp\htdocs\will\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 22:41:23 Error: [MissingControllerException] Controller class DeleteController could not be found.
+#0 C:\xampp\htdocs\will\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 22:58:12 Error: [MissingControllerException] Controller class DeleteController could not be found.
+#0 C:\xampp\htdocs\will\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 22:58:16 Error: [MissingControllerException] Controller class DeleteController could not be found.
+#0 C:\xampp\htdocs\will\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 22:59:31 Error: [MissingControllerException] Controller class DeleteController could not be found.
+#0 C:\xampp\htdocs\will\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 23:05:13 Error: [MissingControllerException] Controller class DeleteController could not be found.
+#0 C:\xampp\htdocs\will\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-06 23:11:30 Error: [MissingControllerException] Controller class DeleteController could not be found.
+#0 C:\xampp\htdocs\will\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-07 01:07:36 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\will\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\will\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\will\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-07 01:07:41 Error: [MissingActionException] Action UsersController::post() could not be found.
+#0 C:\xampp\htdocs\will\blog\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\will\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\will\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-07 01:35:43 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\will\blog\app\View\Posts\index.ctp, line 50]
+2012-12-07 01:35:43 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\will\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\will\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\will\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-07 01:36:19 Error: Fatal Error (4): syntax error, unexpected ';' in [C:\xampp\htdocs\will\blog\app\View\Posts\index.ctp, line 50]
+2012-12-07 01:36:19 Error: [FatalErrorException] syntax error, unexpected ';'
+#0 C:\xampp\htdocs\will\blog\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#2 C:\xampp\htdocs\will\blog\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 50, Array)
+#3 C:\xampp\htdocs\will\blog\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 03:10:45 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)" is missing, or could not be created.
+#0 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\Model\Datasource\DboSource.php(260): Mysql->connect()
+#1 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\Model\Model.php(3158): ConnectionManager::getDataSource('default')
+#3 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\Model\Model.php(1092): Model->setDataSource('default')
+#4 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\Model\Model.php(3180): Model->setSource('users')
+#5 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\Model\Model.php(1301): Model->getDataSource()
+#6 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\View\Helper\FormHelper.php(197): Model->schema()
+#7 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\View\Helper\FormHelper.php(436): FormHelper->_introspectModel('User', 'fields')
+#8 C:\xampp\htdocs\marina\blog2\blog\app\View\Elements\form_login.ctp(19): FormHelper->create('User', Array)
+#9 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#10 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#11 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\View\View.php(424): View->_render('C:\xampp\htdocs...', Array)
+#12 C:\xampp\htdocs\marina\blog2\blog\app\View\Pages\home.ctp(65): View->element('form_login')
+#13 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\View\View.php(920): include('C:\xampp\htdocs...')
+#14 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\View\View.php(883): View->_evaluate('C:\xampp\htdocs...', Array)
+#15 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\View\View.php(475): View->_render('C:\xampp\htdocs...')
+#16 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#17 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#18 C:\xampp\htdocs\marina\blog2\blog\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#19 C:\xampp\htdocs\marina\blog2\blog\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#20 {main}
+2012-12-08 18:40:22 Error: [MissingControllerException] Controller class FonesController could not be found.
+#0 C:\xampp\htdocs\marina\blog2\blogFones\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 18:40:39 Error: [MissingControllerException] Controller class FonesController could not be found.
+#0 C:\xampp\htdocs\marina\blog2\blogFones\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-08 18:41:33 Error: [MissingViewException] View file "C:\xampp\htdocs\marina\blog2\blogFones\app\View\Posts\add.ctp" is missing.
+#0 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\View\View.php(472): View->_getViewFileName(NULL)
+#1 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Controller\Controller.php(957): View->render(NULL, NULL)
+#2 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Routing\Dispatcher.php(193): Controller->render()
+#3 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PostsController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\marina\blog2\blogFones\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-08 19:19:52 Error: Fatal Error (4): syntax error, unexpected '*', expecting function (T_FUNCTION) in [C:\xampp\htdocs\marina\blog2\blogFones\app\Controller\FonesController.php, line 51]
+2012-12-08 19:19:52 Error: [FatalErrorException] syntax error, unexpected '*', expecting function (T_FUNCTION)
+#0 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 19:19:55 Error: Fatal Error (4): syntax error, unexpected '*', expecting function (T_FUNCTION) in [C:\xampp\htdocs\marina\blog2\blogFones\app\Controller\FonesController.php, line 51]
+2012-12-08 19:19:55 Error: [FatalErrorException] syntax error, unexpected '*', expecting function (T_FUNCTION)
+#0 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#2 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', 'C:\xampp\htdocs...', 51, Array)
+#3 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 19:21:19 Error: Fatal Error (1): Call to a member function find() on a non-object in [C:\xampp\htdocs\marina\blog2\blogFones\app\Controller\FonesController.php, line 12]
+2012-12-08 19:21:19 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 12)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', 'C:\xampp\htdocs...', 12, Array)
+#2 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Core\App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', 'C:\xampp\htdocs...', 12, Array)
+#3 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Core\App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-08 19:22:32 Error: [MissingActionException] Action FonesController::delete() could not be found.
+#0 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FonesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marina\blog2\blogFones\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-08 19:28:07 Error: [MissingActionException] Action FonesController::edit() could not be found.
+#0 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FonesController), Object(CakeRequest), Object(CakeResponse))
+#2 C:\xampp\htdocs\marina\blog2\blogFones\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-12-08 19:30:01 Error: [MethodNotAllowedException] Method Not Allowed
+#0 [internal function]: FonesController->delete('1')
+#1 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(FonesController), Array)
+#2 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 C:\xampp\htdocs\marina\blog2\blogFones\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(FonesController), Object(CakeRequest), Object(CakeResponse))
+#4 C:\xampp\htdocs\marina\blog2\blogFones\app\webroot\index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
