@@ -40,7 +40,7 @@
     	}
 	}
 	public function delete($id) {
-    	if (!$this->request->is('post')) {
+    	if (!$this->request->is('posMat')) {
         	throw new MethodNotAllowedException();
     	}
     	if ($this->Aluno->delete($id)) {
