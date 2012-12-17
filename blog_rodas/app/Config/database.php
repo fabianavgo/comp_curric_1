@@ -64,21 +64,12 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '231022',
+		'password' => '200729',
 		'database' => 'caketeste',
 		'prefix' => '',
 		//'port'	 => 8889,
 		'encoding' => 'utf8',
 	);
 
-	// public $test = array(
-	// 	'datasource' => 'Database/Mysql',
-	// 	'persistent' => false,
-	// 	'host' => 'localhost',
-	// 	'login' => 'user',
-	// 	'password' => 'password',
-	// 	'database' => 'test_database_name',
-	// 	'prefix' => '',
-	// 	//'encoding' => 'utf8',
-	// );
+
 }
