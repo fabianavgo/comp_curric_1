@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+<h:head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>Insert title here</title>
+</h:head>
+
+<h:body>
+
+
+<h:messages></h:messages>
+
+	<h:form id="formulario">
+        
+		
+		
+		<h:outputLabel value="Digite o seu nome:"> </h:outputLabel>
+		<h:inputText id="nome" required="true" value="#{primeiroMB.nome}"
+		requiredMessage="O campo nome é obrigatorio"></h:inputText>
+		<h:message for="nome"></h:message>
+		<br />
+		<h:outputText id="texto" rendered="#{primeiroMB.nome != null}" 
+		value="O nome digitado foi: #{primeiroMB.nome}"></h:outputText>
+		<br />
+		<br />
+		<h:outputLabel value="Digite a sua idade:"> </h:outputLabel>
+		<h:inputText id="idade" validator="maiorIdadeValidator" value="#{primeiroMB.idade}" 
+		required="true" requiredMessage="O campo idade é obrigatoria"></h:inputText>
+		<h:message for="idade"></h:message>
+		<br />
+		<br />
+		<h:outputText id="texto2" rendered="#{primeiroMB.idade != null}" 
+		value="A idade digitada foi: #{primeiroMB.idade}"></h:outputText>
+			<br />
+		<h:commandButton value="enviar" action="#{primeiroMB.vaiparaConteudo()}"></h:commandButton>
+	
+	</h:form>
+</h:body>
+</html>
